@@ -11,8 +11,7 @@ public class SetMatrixZero {
 		
 	}
 	public static void setZeroes(int [][] mat) {
-		int col0=1,row=mat.length, col=mat[0].length;
-		
+		int col0=1,row=mat.length, col=mat[0].length;	
 		for(int i=0;i<row;i++) {
 			if(mat[i][0]==0)col0=0;
 			for(int j=1;j<col;j++) {
